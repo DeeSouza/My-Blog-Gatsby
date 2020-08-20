@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Dani Art's`,
-    description: `Um blog sobre arte em crochê.`,
-    author: `@gatsbyjs`,
+    title: `Diego Souza`,
+    position: `Frontend Developer`,
+    description: `Artigos sobre desenvolvimento e boas práticas.`,
+    author: `@deesouza`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
