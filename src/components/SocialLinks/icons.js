@@ -1,10 +1,11 @@
-import { Github, Linkedin, Instagram, Medium } from "styled-icons/boxicons-logos";
+import { Github, Linkedin, Instagram, Medium, DevTo } from "styled-icons/boxicons-logos";
 
 const Icons = {
     Github, 
     Linkedin, 
     Instagram, 
-    Medium
+    Medium,
+    DevTo
 }
 
 export default Icons;
