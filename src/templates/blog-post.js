@@ -1,5 +1,5 @@
 import React from 'react';
-import {  graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 
 const BlogPostTemplate = ({ data }) => {
   const post = data.markdownRemark;
