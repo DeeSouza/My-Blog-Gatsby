@@ -1,9 +1,9 @@
 ---
-date: 2020-08-20 10:00:00
-title: Map, Filter e Reduce
-description: Como utilizar cada uma dessas funções.
-category: JS
-background: "#7AAB13"
+date: 2020-07-12 10:00:00
+title: CSS - Variables Colors
+description: Como utilizar variáveis no CSS
+category: CSS
+background: "#f9c22e"
 ---
 
 # Lorem Ipsum
@@ -23,5 +23,8 @@ const users = [
     }
 ];
 
-const filteredUsers = users.filter(user => user.name === 'Diego');
+const moreUsers = [...users, {
+    name: 'Marcelo'
+}];
+
 ```

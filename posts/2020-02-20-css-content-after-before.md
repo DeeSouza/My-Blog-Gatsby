@@ -1,9 +1,9 @@
 ---
 date: 2020-08-20 10:00:00
-title: Map, Filter e Reduce
+title: CSS - Content 
 description: Como utilizar cada uma dessas funções.
-category: JS
-background: "#7AAB13"
+category: CSS
+background: "#f9c22e"
 ---
 
 # Lorem Ipsum

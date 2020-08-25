@@ -7,7 +7,7 @@ const PostItem = ({ slug, category, background, title, date, description, timeTo
     <S.PostItemLink to={slug}>
         <S.PostItemWrapper>
             <S.PostItemTag background={background}>
-                Misc
+                {category}
             </S.PostItemTag>
             <S.PostItemInfo>
                 <S.PostItemDate>
@@ -27,7 +27,7 @@ PostItem.propTypes = {
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
-    timeToRead: PropTypes.string.isRequired,
+    timeToRead: PropTypes.number.isRequired,
 }
 
 export default PostItem;

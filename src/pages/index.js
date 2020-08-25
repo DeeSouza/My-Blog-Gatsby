@@ -44,6 +44,7 @@ const IndexPage = () => {
         } 
       }) => (
         <PostItem 
+          key={slug}
           slug={slug}
           category={category}
           background={background}

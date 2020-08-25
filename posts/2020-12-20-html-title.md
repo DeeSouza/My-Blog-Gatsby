@@ -1,9 +1,9 @@
 ---
 date: 2020-08-20 10:00:00
-title: Map, Filter e Reduce
+title: HTML - Pra que ser a tag title
 description: Como utilizar cada uma dessas funções.
-category: JS
-background: "#7AAB13"
+category: HTML
+background: "#7d938a"
 ---
 
 # Lorem Ipsum
