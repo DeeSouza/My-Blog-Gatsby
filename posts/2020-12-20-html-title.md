@@ -1,5 +1,5 @@
 ---
-date: 2020-08-20 10:00:00
+date: 2020-12-20 10:00:00
 title: HTML - Pra que ser a tag title
 description: Como utilizar cada uma dessas funções.
 category: HTML

@@ -1,9 +1,9 @@
 ---
-date: 2020-08-20 10:00:00
-title: SVG Fill
+date: 2020-01-15 10:00:00
+title: Map, Filter e Reduce
 description: Como utilizar cada uma dessas funções.
-category: SVG
-background: "#f15946"
+category: JS
+background: "#7AAB13"
 ---
 
 # Lorem Ipsum
