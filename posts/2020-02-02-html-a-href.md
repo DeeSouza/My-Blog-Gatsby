@@ -25,3 +25,8 @@ const users = [
 
 const filteredUsers = users.filter(user => user.name === 'Diego');
 ```
+
+### Lista de UL's
+
+* Diego
+* Dani

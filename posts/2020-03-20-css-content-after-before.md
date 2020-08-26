@@ -25,3 +25,5 @@ const users = [
 
 const filteredUsers = users.filter(user => user.name === 'Diego');
 ```
+
+> Teste de blockquote

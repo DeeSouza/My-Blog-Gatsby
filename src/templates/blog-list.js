@@ -22,8 +22,8 @@ const BlogListTemplate = props => {
             {postList.map(({ 
                 node: { 
                     frontmatter: { background, category, date, description, title },
+                    fields: { slug },
                     timeToRead,
-                    fields: { slug }
                 } 
             }) => (
                 <PostItem 

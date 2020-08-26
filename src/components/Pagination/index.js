@@ -19,8 +19,8 @@ Pagination.propTypes = {
     isLast: PropTypes.bool.isRequired,
     currentPage: PropTypes.number.isRequired,
     numPages: PropTypes.number.isRequired,
-    prevPage: PropTypes.number.isRequired,
-    nextPage: PropTypes.number.isRequired,
+    prevPage: PropTypes.string.isRequired,
+    nextPage: PropTypes.string.isRequired,
 }
 
 export default Pagination;
