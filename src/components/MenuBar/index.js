@@ -1,16 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import { Home as IconHome, Grid as IconGrid } from 'styled-icons/boxicons-solid';
+import { ThList as IconList } from 'styled-icons/typicons'
 import { SearchAlt2 as IconSearch, UpArrowAlt as IconUp, Bulb as IconLight } from 'styled-icons/boxicons-regular';
-
 import * as S from './styled';
 
 const MenuBar = () => {
     const [theme, setTheme] = useState(null);
+    const [display, setDisplay] = useState(null);
+
     const isDarkMode = theme === 'dark';
+    const isListMode = display === 'list';
 
     useEffect(() => {
         setTheme(window.__theme);
+        setDisplay(window.__display);
+
         window.__onThemeChange = () => setTheme(window.__theme);
+        window.__onDisplayChange = () => setDisplay(window.__display);
     }, []);
 
     return (
@@ -35,8 +41,10 @@ const MenuBar = () => {
                 }}>
                     <IconLight />
                 </S.MenuBarItem>
-                <S.MenuBarItem title="Change View">
-                    <IconGrid />
+                <S.MenuBarItem title="Change View" onClick={() => {
+                    window.__setPreferredDisplay(isListMode ? 'grid' : 'list')
+                }}>
+                    {isListMode ? <IconGrid /> : <IconList />}
                 </S.MenuBarItem>
                 <S.MenuBarItem title="Go To Top">
                     <IconUp />
