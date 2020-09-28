@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Home as IconHome, Grid as IconGrid } from 'styled-icons/boxicons-solid';
 import { ThList as IconList } from 'styled-icons/typicons'
 import { SearchAlt2 as IconSearch, UpArrowAlt as IconUp, Bulb as IconLight } from 'styled-icons/boxicons-regular';
+
+import getThemeColor from '../../utils/getThemeColor';
+
 import * as S from './styled';
 
 const MenuBar = () => {
@@ -22,13 +25,27 @@ const MenuBar = () => {
     return (
         <S.MenuBarWrapper>
             <S.MenuBarGroup>
-                <S.MenuBarLink to="/" title="Go Back Home">
+                <S.MenuBarLink 
+                    cover
+                    direction="left"
+                    bg={getThemeColor()}
+                    duration={0.6}
+                    to="/" 
+                    title="Go Back Home"
+                >
                     <S.MenuBarItem>
                         <IconHome />
                     </S.MenuBarItem>
                 </S.MenuBarLink>
 
-                <S.MenuBarLink to="/search" title="Search">
+                <S.MenuBarLink 
+                    cover
+                    direction="left"
+                    bg="#16202c"
+                    duration={0.6}
+                    to="/search" 
+                    title="Search"
+                >
                     <S.MenuBarItem>
                         <IconSearch />
                     </S.MenuBarItem>

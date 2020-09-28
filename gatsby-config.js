@@ -67,6 +67,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-sharp`,
+    'gatsby-plugin-transition-link',
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-manifest`,
