@@ -43,6 +43,6 @@ export const query = graphql`
       html
       timeToRead
     }
-  } `
+  }`
 
 export default BlogPostTemplate;

@@ -1,10 +1,15 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 export const PostHeader = styled.header`
   color: var(--postColor);
   margin: auto;
   max-width: 70rem;
   padding: 5rem 5rem 0;
+
+  ${media.lessThan('large')`
+    padding: 5rem 2.5rem 0;
+  `}
 `
 
 export const PostTitle = styled.h1`
@@ -30,6 +35,10 @@ export const MainContent = styled.section`
   margin: auto;
   max-width: 70rem;
   padding: 2rem 5rem;
+
+  ${media.lessThan('large')`
+    padding: 2rem 2.5rem;
+  `}
 
   p,
   h1,
